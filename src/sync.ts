@@ -5,7 +5,11 @@ import { IKeyValueStoreSync } from "@keeveestore/keeveestore";
 import SortedMap from "collections/sorted-map";
 
 export class StoreSync<K, T> implements IKeyValueStoreSync<K, T> {
-	private readonly store: SortedMap<K, T> = new SortedMap<K, T>();
+	private constructor(private readonly store: SortedMap<K, T>) {}
+
+	public static new<K, T>(): StoreSync<K, T> {
+		return new StoreSync<K, T>(new SortedMap<K, T>());
+	}
 
 	public all(): [K, T][] {
 		return [...this.store.entries()];
