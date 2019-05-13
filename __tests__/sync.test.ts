@@ -1,7 +1,7 @@
 import { complianceTestsSync } from "@keeveestore/test-suite";
 import { StoreSync } from "../src/sync";
 
-complianceTestsSync(new StoreSync<string, string>(), {
+complianceTestsSync(() => StoreSync.new<string, string>(), {
 	key1: "value1",
 	key2: "value2",
 	key3: "value3",
