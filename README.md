@@ -6,7 +6,7 @@
 [![Node Engine](https://badgen.now.sh/npm/node/@keeveestore/sorted-map)](https://www.npmjs.com/package/@keeveestore/sorted-map)
 [![Build Status](https://badgen.now.sh/circleci/github/keeveestore/sorted-map)](https://circleci.com/gh/keeveestore/sorted-map)
 [![Codecov](https://badgen.now.sh/codecov/c/github/keeveestore/sorted-map)](https://codecov.io/gh/keeveestore/sorted-map)
-[![License: MPL-2.0](https://badgen.now.sh/badge/license/MPL-2.0/green)](https://mozilla.org/MPL/2.0/)
+[![License: MPL-2.0](https://badgen.now.sh/badge/license/MPL-2.0/green)](https://mozilla.org/MPL/2.0/) [![Greenkeeper badge](https://badges.greenkeeper.io/keeveestore/sorted-map.svg)](https://greenkeeper.io/)
 
 ## Installation
 
